@@ -1,3 +1,14 @@
-<header>Header</header>
-<h1>Hello</h1>
-<footer>Footer</footer>
+<mat-toolbar class="header">Header</mat-toolbar>
+
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav 
+                mode="side" 
+                opened 
+                class="sidenav"> Sidenav
+    </mat-sidenav>
+    <mat-sidenav-content>
+      content
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+  <mat-toolbar class="footer">Footer</mat-toolbar>
