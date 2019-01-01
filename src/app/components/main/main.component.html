@@ -1,14 +1,11 @@
 <mat-toolbar class="header">Header</mat-toolbar>
 
-  <mat-sidenav-container class="sidenav-container">
-    <mat-sidenav #sidenav 
-                mode="side" 
-                opened 
-                class="sidenav"> Sidenav
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side" opened class="sidenav"> Sidenav
     </mat-sidenav>
     <mat-sidenav-content>
-      content
+        <router-outlet></router-outlet>
     </mat-sidenav-content>
-  </mat-sidenav-container>
+</mat-sidenav-container>
 
-  <mat-toolbar class="footer">Footer</mat-toolbar>
+<mat-toolbar class="footer">Footer</mat-toolbar>
